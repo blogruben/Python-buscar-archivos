@@ -4,8 +4,8 @@ from pathlib import Path
 d = Path(__file__).parents[1]
 sys.path.append(str(d))
 
-import back.buscar as buscar
-from back.tipo_elemento import Tipo_elemento
+import buscar.buscar as buscar
+from buscar.tipo_elemento import Tipo_elemento
 
 class Buscar:
 	def __init__(self):

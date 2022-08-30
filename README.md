@@ -44,33 +44,31 @@ Ahora, la consola comienza por (venv)
 indicando que estamos en el entorno virtual
 
 
-5. Instalar librería para ver el codec de los archivos
+4. Instalar librería para ver el codec de los archivos ([charset-normalizer](https://charset-normalizer.readthedocs.io/en/latest/user/getstarted.html))
 ```
 #Sin proxy
 pip3 install charset-normalizer
 #Usando el proxy proxy:8080
 pip3 install --proxy=http://proxy:8080 charset-normalizer
 ```
-[documentacion charset-normalizer](https://charset-normalizer.readthedocs.io/en/latest/user/getstarted.html)
 
-
-
-1. Ejecutar main.py
+6. Ejecutar main.py
 ```
 #En Mac y Linux
 venv/bin/python src/main.py
 #En windows
 python src/main.py
 ```
-# Configurar entorno de desarrollo 
 
-1. Instalar VS Code
 
-2. Activar el interperte de VS Code
+# Configurar entorno de desarrollo con VS Code
+
+Activar el interperte de VS Code
 Para que el interprete sea el del entorno virtual
 y no el python del sistema
 VSCode -> View -> Command palette -> Python Select Interpreter 
-Ahora al imiciar un archivo con la extersion .py 
-en la esquina inferior derecha pondra el interprete de venv
+Ahora al iniciar un archivo con la extersion .py 
+en la esquina inferior derecha pondra ver el interprete de venv
+
 
 ------------
